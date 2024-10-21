@@ -1,0 +1,70 @@
+<div class="flex w-full items-center justify-center">
+  <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl p-6">
+
+    <span class="block">
+      Sync
+      <span class="text-transparent bg-clip-text bg-gradient-to-tr to-cyan-500 from-blue-600">
+        Chat App
+      </span>
+    </span>
+  </h1>
+</div>
+
+<div class="w-full content-center align-center flex items-center justify-center h-96">
+  <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 ">
+    <form [formGroup]="loginForm">
+
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+          Username
+        </label>
+        <input formControlName="username"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          id="username" type="text" placeholder="Username" required>
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+          Password
+        </label>
+        <input formControlName="password"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          id="Password" type="password" placeholder="Password" required>
+      </div>
+
+
+    </form>
+
+    <div class="flex items-center justify-center">
+      <button (click)="login()"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        type="button">
+        Login
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+@if (isAlert) {
+@if(alertType==="warning"){
+<div class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="warning">
+  <p class="font-bold">Message</p>
+  <p>{{message}}</p>
+</div>
+}
+@else if (alertType==="success"){
+<div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4" role="success">
+  <p class="font-bold">Message</p>
+  <p>{{message}}</p>
+</div>
+}
+@else if (alertType==="error"){
+<div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4" role="red">
+  <p class="font-bold">Message</p>
+  <p>{{message}}</p>
+</div>
+}
+}
