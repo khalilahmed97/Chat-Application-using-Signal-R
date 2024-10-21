@@ -4,9 +4,13 @@
         (
 
         string Name,
-        IFormFile File
+        string Username,
+        string Password
+/*        IFormFile File*/
 
         );
+
+  
 }
     
 

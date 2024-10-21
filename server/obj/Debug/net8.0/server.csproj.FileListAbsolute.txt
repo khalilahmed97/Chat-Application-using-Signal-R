@@ -140,3 +140,15 @@ C:\Users\Techlink\Desktop\Chat App\server\obj\Debug\net8.0\refint\server.dll
 C:\Users\Techlink\Desktop\Chat App\server\obj\Debug\net8.0\server.pdb
 C:\Users\Techlink\Desktop\Chat App\server\obj\Debug\net8.0\server.genruntimeconfig.cache
 C:\Users\Techlink\Desktop\Chat App\server\obj\Debug\net8.0\ref\server.dll
+C:\Users\Techlink\Desktop\Chat App\server\obj\Debug\net8.0\server.sourcelink.json
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\server.staticwebassets.runtime.json
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\GenericFileService.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Microsoft.Owin.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Techlink\Desktop\Chat App\server\bin\Debug\net8.0\Owin.dll
